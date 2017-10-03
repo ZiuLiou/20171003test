@@ -60,6 +60,8 @@ public class MainFrame extends JFrame{
         jbtn3.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
+           jtaL.setText(" ");
+                jtaR.setText(" ");
             }
         });
         jbtn4.addActionListener(new AbstractAction() {
